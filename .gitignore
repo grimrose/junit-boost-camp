@@ -4,3 +4,17 @@
 *.jar
 *.war
 *.ear
+
+
+# build
+build/
+out/
+
+# idea
+
+*.iml
+*.ipr
+*.iws
+
+# gradle
+.gradle/
