@@ -22,13 +22,6 @@ class CalcTest {
         assertThat(sut.add(3, 4), CoreMatchers.is(7))
     }
 
-    static class Calc {
-
-        int add(int x, int y) {
-            x + y
-        }
-    }
-
     public static void main(String[] args) {
         JUnitCore.main(CalcTest.class.getName())
     }
