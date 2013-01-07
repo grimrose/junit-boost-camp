@@ -6,13 +6,6 @@ import org.junit.Test
 
 import static org.junit.Assert.assertThat
 
-/**
- * Created with IntelliJ IDEA.
- * User: grimrose
- * Date: 2013/01/03
- * Time: 23:47
- * To change this template use File | Settings | File Templates.
- */
 class ArrayListFlatTest {
 
     ArrayList<String> sut

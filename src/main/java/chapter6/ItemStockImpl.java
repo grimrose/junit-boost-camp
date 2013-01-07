@@ -4,13 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Created with IntelliJ IDEA.
- * User: grimrose
- * Date: 2013/01/03
- * Time: 0:47
- * To change this template use File | Settings | File Templates.
- */
 public class ItemStockImpl implements ItemStock {
 
     private ConcurrentHashMap<String, List<String>> stock = new ConcurrentHashMap<>();
@@ -33,7 +26,7 @@ public class ItemStockImpl implements ItemStock {
 
     @Override
     public boolean contains(String item) {
-        return stock.containsKey(item);  //To change body of implemented methods use File | Settings | File Templates.
+        return stock.containsKey(item);
     }
 
     private List<String> getList(String item) {
@@ -47,4 +40,5 @@ public class ItemStockImpl implements ItemStock {
         }
         return list;
     }
+
 }

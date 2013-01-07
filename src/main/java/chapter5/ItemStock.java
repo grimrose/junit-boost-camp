@@ -4,13 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Created with IntelliJ IDEA.
- * User: grimrose
- * Date: 2013/01/01
- * Time: 14:52
- * To change this template use File | Settings | File Templates.
- */
 public class ItemStock {
 
     private ConcurrentHashMap<String, List<Item>> stock = new ConcurrentHashMap<>();

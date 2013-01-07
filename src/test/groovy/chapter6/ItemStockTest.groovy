@@ -8,13 +8,6 @@ import org.junit.runner.RunWith
 
 import static org.junit.Assert.assertThat
 
-/**
- * Created with IntelliJ IDEA.
- * User: grimrose
- * Date: 2013/01/03
- * Time: 0:49
- * To change this template use File | Settings | File Templates.
- */
 @RunWith(Enclosed)
 class ItemStockTest {
 

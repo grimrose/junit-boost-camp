@@ -1,7 +1,6 @@
 package chapter6
 
 import org.hamcrest.CoreMatchers
-import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
 import org.junit.experimental.runners.Enclosed
@@ -9,13 +8,6 @@ import org.junit.runner.RunWith
 
 import static org.junit.Assert.assertThat
 
-/**
- * Created with IntelliJ IDEA.
- * User: grimrose
- * Date: 2013/01/03
- * Time: 23:54
- * To change this template use File | Settings | File Templates.
- */
 @RunWith(Enclosed)
 class ArrayListEnclosedTest {
 
