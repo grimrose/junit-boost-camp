@@ -33,6 +33,9 @@ dependencies {
     // chapter.4
     compile 'joda-time:joda-time:2.1'
 
+    // chapter.7
+    testCompile 'org.yaml:snakeyaml:1.10'
+
 }
 
 task quickStart << {
