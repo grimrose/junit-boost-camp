@@ -8,13 +8,6 @@ import org.junit.runner.RunWith
 
 import static org.junit.Assert.assertThat
 
-/**
- * Created with IntelliJ IDEA.
- * User: grimrose
- * Date: 2013/01/04
- * Time: 0:00
- * To change this template use File | Settings | File Templates.
- */
 @RunWith(Enclosed)
 class UserTest {
 
@@ -35,11 +28,11 @@ class UserTest {
     static class User {
 
         String getName() {
-            return "nobody";  //To change body of created methods use File | Settings | File Templates.
+            "nobody";
         }
 
         boolean isAdmin() {
-            return false;  //To change body of created methods use File | Settings | File Templates.
+            false;
         }
     }
 

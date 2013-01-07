@@ -7,14 +7,6 @@ import static org.junit.Assert.*
 import static org.hamcrest.CoreMatchers.*
 import static chapter4.IsDate.*
 
-
-/**
- * Created with IntelliJ IDEA.
- * User: grimrose
- * Date: 2013/01/01
- * Time: 14:08
- * To change this template use File | Settings | File Templates.
- */
 class IsDateTest {
 
     @Test
