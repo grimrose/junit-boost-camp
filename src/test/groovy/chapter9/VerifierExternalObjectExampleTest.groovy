@@ -17,10 +17,7 @@ class VerifierExternalObjectExampleTest {
 
     @Test
     void "test"() {
-        // Setup
-        log.logs.add("error log.")
-        // Exercise
-        // Verify
+        log.logs.add "error log."
     }
 
     static class ErrorLogVerifier extends Verifier {
@@ -32,7 +29,7 @@ class VerifierExternalObjectExampleTest {
 
         @Override
         protected void verify() throws Throwable {
-            assertThat(log.size(), CoreMatchers.is(not(0)))
+            assertThat log.size(), CoreMatchers.is(not(0))
         }
     }
 
