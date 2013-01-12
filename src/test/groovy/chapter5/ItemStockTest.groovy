@@ -6,6 +6,8 @@ import org.junit.Test
 import org.junit.experimental.runners.Enclosed
 import org.junit.runner.RunWith
 
+import static org.hamcrest.CoreMatchers.*
+import static org.hamcrest.CoreMatchers.*
 import static org.junit.Assert.assertThat
 
 @RunWith(Enclosed)
@@ -23,13 +25,13 @@ class ItemStockTest {
         @Test
         void "size Aが0を返す"() {
             // Verify
-            assertThat(sut.size("A"), CoreMatchers.is(0))
+            assertThat sut.size("A"), CoreMatchers.is(0)
         }
 
         @Test
         void "contains Aはfalseを返す"() {
             // Verify
-            assertThat(sut.contains("A"), CoreMatchers.is(false))
+            assertThat sut.contains("A"), CoreMatchers.is(false)
         }
 
     }
@@ -47,13 +49,13 @@ class ItemStockTest {
         @Test
         void "size Aが1を返す"() {
             // Verify
-            assertThat(sut.size("A"), CoreMatchers.is(1))
+            assertThat sut.size("A"), CoreMatchers.is(1)
         }
 
         @Test
         void "contains Aはtrueを返す"() {
             // Verify
-            assertThat(sut.contains("A"), CoreMatchers.is(true))
+            assertThat sut.contains("A"), CoreMatchers.is(true)
         }
 
     }
