@@ -12,10 +12,10 @@ class CalcTest {
     void "addに3と4を与えると7を返す"() {
         // SetUp
         Calc sut = new Calc()
-        assertThat(sut.add(3, 4), CoreMatchers.is(7))
+        assertThat sut.add(3, 4), CoreMatchers.is(7)
     }
 
     public static void main(String[] args) {
-        JUnitCore.main(CalcTest.class.getName())
+        JUnitCore.main CalcTest.class.name
     }
 }

@@ -17,7 +17,7 @@ class CalcTheoriesTest {
     @Theory
     void add(int[] values) {
         Calc sut = new Calc()
-        assertThat(sut.add(values[0], values[1]), CoreMatchers.is(values[2]))
+        assertThat sut.add(values[0], values[1]), CoreMatchers.is(values[2])
     }
 
 }
