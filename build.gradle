@@ -45,6 +45,9 @@ dependencies {
     // chapter.7
     testCompile 'org.yaml:snakeyaml:1.10'
 
+    // chapger.11
+    testCompile 'org.mockito:mockito-all:1.9.5'
+
 }
 
 task quickStart << {
